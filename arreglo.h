@@ -20,6 +20,7 @@ public:
 
     void insertar_inicio(const string &s);
     void insertar_final(const string &s);
+    
     size_t size();
 
     string operator[](size_t p){
